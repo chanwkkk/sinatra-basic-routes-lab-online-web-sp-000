@@ -6,5 +6,13 @@ class App < Sinatra::Base
     "My name is KK"
   end
 
+  get '/hometown' do
+    "My hometown is Hongkong"
+  end
+
+  get '/favorite-song' do
+    "My favorite song is imagine"
+  end
+
 
 end
